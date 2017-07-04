@@ -1,13 +1,39 @@
 
 .titulo{
-	color: #fff; 
+	color: #000000; 
 	font-size: 16px;
 }
 
 .titulo-contacto{
-	color: #21618C;
+	color: #000000;
 	font-weight: bold;
 }
+
+#menu_mensajes{
+  background-color: #fff;
+
+}
+
+/*para desplazar el icono de search
+.has-feedback-left input.form-control {
+    padding-left: 34px; 
+    padding-right: 12px; 
+}
+.has-feedback-left .form-control-feedback {
+    left: 15px; 
+}
+*/
+
+.enviado{
+  background-color: #fff;
+}
+ 
+.recibido{
+  background-color: #C9E7FF;
+ 
+
+}
+
 
 html,
 body,

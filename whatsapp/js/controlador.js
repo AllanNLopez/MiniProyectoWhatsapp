@@ -3,7 +3,7 @@ $("#slc-usuario").change(function(){
 });
 
 function seleccionarContacto(codigoContacto, nombreContacto){
-	alert("CONTACTO seleccionado: " + codigoContacto + ", Nombre: " + nombreContacto);
+	//alert("CONTACTO seleccionado: " + codigoContacto + ", Nombre: " + nombreContacto);
 }
 
 

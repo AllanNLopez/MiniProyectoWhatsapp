@@ -1,0 +1,952 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"col",
+				"col-xs-12"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"in",
+				"input-text-box"
+			],
+			[
+				"center",
+				"center-block"
+			],
+			[
+				"btn",
+				"btn-success"
+			],
+			[
+				"cols",
+				"col-xs-12"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"for",
+				"form-group"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"pading",
+				"padding-left"
+			],
+			[
+				"cols-",
+				"cols-margin"
+			],
+			[
+				"panel",
+				"panel-heading"
+			],
+			[
+				"squ",
+				"square-panel"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"contr",
+				"container-fluid"
+			],
+			[
+				"marig",
+				"margin"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"borderc",
+				"border-color"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"para",
+				"parallax-caption"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"panel-",
+				"panel-body"
+			],
+			[
+				"cont",
+				"content"
+			],
+			[
+				"pane",
+				"panel-default"
+			],
+			[
+				"conta",
+				"container-fluid"
+			],
+			[
+				"la",
+				"landingpage"
+			],
+			[
+				"ds",
+				"display"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"box",
+				"box-category"
+			],
+			[
+				"col-",
+				"col-xs-6"
+			],
+			[
+				"rig",
+				"right-caption"
+			],
+			[
+				"h",
+				"h3\tTag"
+			],
+			[
+				"le",
+				"left-caption"
+			],
+			[
+				"tax",
+				"text-align"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"time",
+				"tiempo"
+			],
+			[
+				"tit",
+				"titulo-contacto"
+			],
+			[
+				"pu",
+				"put-it-right"
+			],
+			[
+				"fr",
+				"form-group"
+			],
+			[
+				"bor",
+				"border-style"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"p",
+				"placeholder\tAttr"
+			],
+			[
+				"gr",
+				"grid-margin"
+			],
+			[
+				"te",
+				"textarea\tTag"
+			],
+			[
+				"re",
+				"readonly\tAttr"
+			],
+			[
+				"modal-",
+				"modal-body"
+			],
+			[
+				"frm",
+				"frmNuevoPatrocinador"
+			],
+			[
+				"al",
+				"alert"
+			],
+			[
+				"selec",
+				"selecionar"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"img",
+				"img-circle"
+			],
+			[
+				"pan",
+				"panel-heading"
+			],
+			[
+				"tbl",
+				"tblBitacora"
+			],
+			[
+				"tbl-",
+				"tabla-tareas"
+			],
+			[
+				"navbar",
+				"navbar-nav"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"table",
+				"table-striped"
+			],
+			[
+				"im",
+				"img-circle"
+			],
+			[
+				"fo",
+				"panel-formularios"
+			],
+			[
+				"col-m",
+				"col-md-6"
+			],
+			[
+				"frmnu",
+				"frmNuevaTarea"
+			],
+			[
+				"b",
+				"bgcolor\tAttr"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"sele",
+				"selectpicker"
+			],
+			[
+				"c",
+				"col-lg-6"
+			],
+			[
+				"Da",
+				"DataTable"
+			],
+			[
+				"ta",
+				"tabla-proyectos"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"text",
+				"textbox"
+			],
+			[
+				"hea",
+				"header-inicio"
+			],
+			[
+				"bo",
+				"shadow-box"
+			],
+			[
+				"na",
+				"navbar-nav"
+			],
+			[
+				"tr",
+				"tr-patrocinadores"
+			],
+			[
+				"he",
+				"height\tAttr"
+			],
+			[
+				"con",
+				"container-fluid"
+			],
+			[
+				"form-",
+				"form-group"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"bord",
+				"border-style"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"foi",
+				"font-family"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"off",
+				"offer_section"
+			],
+			[
+				"of",
+				"ofertas_slider"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Constructores:\n*Es un metodo o funcion\n*Se ejecuta al momento de crear una instancia, es decir es el primer metodo en ejecutarse.\n*Se utiliza usualmente para inicializar atributos internos o inicializar otros objetos.\n*Obligatoriamente tiene que ser publico\n*Un constructor en PHP debe tener el siguiente nombre\n\tpublic function __construct(){}\n\nJava:\n\tpublic NombreClase(){}\n\nEn Java un constructor no tiene tipo de dato de retorno, inclusive void.\nSi no se define un constructor, se crea automaticamente uno vacio.\n\nComposición:\nEs utilizar para un atributo un tipo de dato referenciado, es decir utilizar una clase previamente creada como tipo de dato, en PHP no se definen los tipos de datos de cada atributo, asi que es en el proceso de instanciacion donde se debe enviar el objeto para el atributo que tendra el tipo de dato referenciado.\n\nModificador static:\nPermite acceder a un atributo o metodo sin crear una instancia. Esto se hace a traves del nombre de la clase.\n\nPHP\n\tNombreClase::nombreAtributoEstatico;\n\nLos atributos estaticos conservan el mismo valor para todos los objetos.\nPara acceder a un atributo estatico desde la propia clase se usa self::$nombreAtributoEstatico\n\n\nPilares de la Programacion Orientada a Objetos:\nEncapsulacion: Definir atributos privados y acceder a ellos mediante metodos publicos, esto se hace para proteger los atributos de modificaciones involuntarias. A los metodos para acceder o asignar valores se los conoce como los metodos set y get.\n\nAbstraccion\nEs utilizar alguna funcionalidad sin necesidad de saber como esta estructurada internamente.\n\nHerencia\nEs la funcionalidad que permite reutilizar codigo definiendo una nueva clase que encapsule atributos y metodos en comun de varias clases. A la nueva clase se le llamara clase padre, super clase o clase base, y a las clases que hereden de esta se les llamara clase hija, sub clase o clase derivada.\nGeneralmente los atributos de la clase padre se definen con el modificador de acceso protected, este es similar al modificar private con la salvedad de que permite que sean accedidos desde clases hijas.\n\n-Sobreescritura de metodos: Volver a escribir un metodo en una clase hija que estaba previamente defido en su clase padre. Si se necesita llamar al metodo padre desde el metodo sobreescrito en la clase hija se debe utilizar parent::nombreMetodo()\n\n-instanceof: operador logico que sirve para verificar si un objeto es instancia de una clase.\n\tSintaxis (PHP y Java): $objeto instanceof NombreClase.\n\n-Clases Abstractas:\n\tSon clases que generalmente se utilizan como clase base o clase padre en herencia, son clases genericas y se rigen por las siguientes reglas:\n\t-No se pueden instanciar.\n\t-A pesar de que no se pueden instanciar si pueden tener constructor.\n\t-Una clase abstracta puede tener o no metodos abstractos.\n\t-Si hay al menos un metodo abstracto la clase debe ser abstracta.\n\t-Un metodo abstracto no tiene cuerpo solo se define y este debe ser sobreescrito obligatroriamente en clases hijas.\n\n-Interfaces(interface): Son  estructuras de datos similares a una clase, se les conoce tambien como clase abstracta pura y debe cumplir con las siguientes reglas:\n\t-Se utiliza la palabra reservada interface en vez de class.\n\t-No se puede instanciar.\n\t-No tiene constructor.\n\t-Todos sus atributos son constantes estaticas.\n\t-Todos los metodos son abstractos.\n\t-Se puede aplicar herencia teniendo como padre una o varias interfaces, para ello se debe utilizar implements cuando una clase hereda de una interfaz y extends cuando se aplique herencia entre interfaces.\n\t-Los atributos y metodos deben ser public.\n\n\nPolimorfismo\n\n\n\n---\n\n\n<div>\n\t\t\t\t<div class=\"col-lg-9 grid-margin\">\n\t\t\t\t\t<div class=\"panel with-nav-tabs panel-default panel-cuadrado\">\n\t\t\t\t\t  <div class=\"panel-heading\">\n\t\t\t\t\t  \t<!--<span class=\"glyphicon glyphicon-list-alt\" aria-hidden=\"true\"></span> Proyecto: Nombre de proyecto-->\n  \t\t\t\t\t\t<ul class=\"nav nav-tabs\">\n  \t\t\t\t\t\t\t<li><span class=\"glyphicon glyphicon-list-alt\" aria-hidden=\"true\" style=\"padding: 10px;\"></span> Proyecto: Nombre de proyecto &nbsp;&nbsp;&nbsp;&nbsp;</li>\n\t\t\t\t\t\t\t<li class=\"active\"><a  href=\"#1\" data-toggle=\"tab\">Datos de proyecto</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#2\" data-toggle=\"tab\">Operaciones y actividades</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#3\" data-toggle=\"tab\">Materiales</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#4\" data-toggle=\"tab\">Colaboradores</a></li>\n\t\t\t\t\t\t</ul>\n\n\t\t\t\t\t  </div>\n\t\t\t\t\t  <div class=\"panel-body\">\n\t\t\t\t\t\t<div class=\"tab-content \">\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<!--Inicio del tab1  +++++++++ -->\n\t\t\t\t\t\t\t<div class=\"tab-pane active\" id=\"1\">\n\t\t\t\t\t\t\t   \n\n\t\t\t\t\t\t\t   \n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<!--Inicio del tab2  +++++++++ -->\n\t\t\t\t\t\t\t<div class=\"tab-pane\" id=\"2\">\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<!--Inicio del tab3  +++++++++ -->\n\t\t\t\t\t\t\t<div class=\"tab-pane\" id=\"3\">\n\t\t\t\t\t\t\t    \n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<!--Inicio del tab4  +++++++++ -->\n\t\t\t\t\t\t\t<div class=\"tab-pane\" id=\"4\">\n\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t  </div>\n\t\t\t\t\t </div>\n\t\t\t\t</div>\n\t\t\t</div>",
+			"file": "/C/Users/Allan_Lopez/Documents/Proyectos/IS410-I2017-IUnidad-master/anotaciones.txt",
+			"file_size": 3630,
+			"file_write_time": 131334762460000000,
+			"settings":
+			{
+				"buffer_size": 4995,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/detalle_producto.html",
+			"settings":
+			{
+				"buffer_size": 13185,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/login.html",
+			"settings":
+			{
+				"buffer_size": 5080,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\t\t\t\t<div class=\"panel-group\" id=\"accordion1\" role=\"tablist\" aria-multiselectable=\"true\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"panel \">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"list-group-item\" role=\"tab\" id=\"headingOne\">\n\t\t\t\t\t\t\t\t\t    \t\t<h4 class=\"panel-title\">\n\t\t\t\t\t\t\t\t\t    \t\t<a role=\"button\" data-toggle=\"collapse\" data-parent=\"#accordion1\" href=\"#collapseOne1\" aria-expanded=\"true\" aria-controls=\"collapseOne\">\n\t\t\t\t\t\t\t\t\t          \tCollapsible Group Item #1\n\t\t\t\t\t\t\t\t\t        \t</a>\n\t\t\t\t\t\t\t\t\t      \t\t</h4>\n\t\t\t\t\t\t\t\t\t    \t</div>\n\t\t\t\t\t\t\t\t\t    \t<div id=\"collapseOne1\" class=\"panel-collapse collapse in\" role=\"tabpanel\" aria-labelledby=\"headingOne1\">\n\t\t\t\t\t\t\t\t\t      \t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t\t        \tAnim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.\n\t\t\t\t\t\t\t\t\t      \t\t</div>\n\t\t\t\t\t\t\t\t\t    \t</div>\n\t\t\t\t\t\t\t\t\t  \t</div>\n\n\t\t\t\t\t\t\t\t\t  \t<div class=\"panel panel-default\">\n    <div class=\"list-group-item\" role=\"tab\" id=\"headingThree\">\n      <h4 class=\"panel-title\">\n        <a class=\"collapsed\" role=\"button\" data-toggle=\"collapse\" data-parent=\"#accordion1\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">\n          Collapsible Group Item #3\n        </a>\n      </h4>\n    </div>\n    <div id=\"collapseThree\" class=\"panel-collapse collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n      <div class=\"panel-body\">\n        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.\n      </div>\n    </div>\n  </div>\n\n\n\t\t\t\t\t\t\t\t\t</div>\t\t",
+			"settings":
+			{
+				"buffer_size": 2521,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/css/index-style.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/index.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/panelproyectos.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/perfil.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/css/catalogo_electronico.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/css/catalogo-style.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/detalle_producto.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/catalogo.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/plantilla.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/css/bootstrap.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/index.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/css/myStyle.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/css/fonts-iconmoon.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/hotel_/hotel_/css/miEstilo.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/hotel_/hotel_/index.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/hotel_/hotel_/css/style.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/css/font-awesome.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/css/style.css",
+		"/C/wamp64/www/parallax-template/js/materialize.js",
+		"/C/wamp64/www/parallax-template/css/materialize.css",
+		"/C/wamp64/www/parallax-template/index.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/css/carousel.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/css/custom.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/plantilla/css/myStyle.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/plantilla/index.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/plantilla/css/bootstrap.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/plantilla/index - copia.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/plantilla/css/style.css",
+		"/C/Users/Allan_Lopez/AppData/Local/Temp/Rar$DIa3980.8881/style.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/hotel_/hotel_/habitaciones.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/hotel_/hotel_/css/bootstrap-material-design.css",
+		"/C/Users/Allan_Lopez/Downloads/bootstrap-material-design-master/bootstrap-material-design-master/dist/css/bootstrap-material-design.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/hotel_/hotel_/css/bootstrap.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/plantilla/js/controlador.js",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/plantilla/css/custom.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/plantilla/css/font-awesome.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/plantilla/css/miEstilo.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/css/bootstrap-theme.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/css/ie10-viewport-bug-workaround.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/css/miEstilo.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/css/style.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/css/miTipografia.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/IS912-II2017/whatsapp/index.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/IS912-II2017/whatsapp/css/custom.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/IS912-II2017/whatsapp/js/controlador.js",
+		"/C/Users/Allan_Lopez/AppData/Local/Temp/Rar$DIa232.11763/controlador.js",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/tablero.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/panelusuarios.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/panelrecursos.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/inscripcionvoluntario.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/js/patrocinadores-init.js",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/js/inicializador.js",
+		"/C/wamp64/www/ejercicio_playstore/ajax/acciones.php",
+		"/C/wamp64/www/ejercicio_playstore/js/controlador.js",
+		"/C/wamp64/www/ejercicio_playstore/class/class-conexion.php",
+		"/C/wamp64/www/ejercicio_playstore/index.php",
+		"/C/Users/Allan_Lopez/Documents/universidad/Arquitectura/alarma/panel.php",
+		"/C/wamp64/www/appointments_test/css/miEstilo.css",
+		"/C/Users/Allan_Lopez/Documents/universidad/Arquitectura/alarma/encendersms.php",
+		"/C/wamp64/www/appointments_test/css/materialize.css",
+		"/C/wamp64/www/appointments_test/css/custom.css",
+		"/C/wamp64/www/appointments_test/index.html",
+		"/C/wamp64/www/unmundo/css/bootstrap.min.css",
+		"/C/wamp64/www/unmundo/css/miEstilo.css",
+		"/C/wamp64/www/unmundo/css/bootstrap.css",
+		"/C/wamp64/www/ejemplo_clases/index.php",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/datatablesexample.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/js/inicializador.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/panelproyectos - copia.html",
+		"/C/Users/Allan_Lopez/AppData/Local/Temp/Rar$DIa5344.48603/datatables.min.css",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/plantilla del sitio.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/panelrecursos.html.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/js/jquery.js",
+		"/C/Users/Allan_Lopez/Documents/universidad/Arquitectura/alarma/css/datatables.css",
+		"/C/Users/Allan_Lopez/Documents/Proyectos/web/IS410-I2017-IIUnidad-master/registro_usuarios/index.html",
+		"/C/Users/Allan_Lopez/Documents/Proyectos/web/IS410-I2017-IIUnidad-master/registro_usuarios/js/registro_usuarios.js",
+		"/C/Users/Allan_Lopez/Documents/Proyectos/web/IS410-I2017-IIUnidad-master/registro_usuarios/cover.css",
+		"/C/wamp64/www/ejercicio_playstore/_index.php",
+		"/C/wamp64/www/ejemplo_clases/class/class-computadora.php",
+		"/C/Users/Allan_Lopez/Documents/GitHub/Project_Mundo/Web_site/test.html",
+		"/C/Users/Allan_Lopez/AppData/Local/Temp/Rar$DIa2792.13683/datatables.min.css",
+		"/C/Users/Allan_Lopez/AppData/Local/Temp/Rar$DIa2792.49588/jquery.dataTables.min.css",
+		"/C/Users/Allan_Lopez/Documents/universidad/Arquitectura/alarma/index.php",
+		"/C/wamp64/www/unmundo/index.html",
+		"/C/wamp64/www/unmundo/panelproyectos.html",
+		"/C/wamp64/www/unmundo/css/miTipografia.css",
+		"/C/Users/Allan_Lopez/Documents/Proyectos/web/hotel_/css/miEstilo.css",
+		"/C/wamp64/www/facebook_usuarios/index.php",
+		"/C/wamp64/www/facebook_usuarios/class/class-usuario.php",
+		"/D/Memoria/Bayardo/Clases/SISTEMAS EXPERTOS/SitioEjemplo/Buscar.htm",
+		"/D/Memoria/Bayardo/Clases/SISTEMAS EXPERTOS/SitioEjemplo/buscar.php",
+		"/D/Memoria/Bayardo/Clases/SISTEMAS EXPERTOS/SitioEjemplo/conectardb.php",
+		"/C/wamp64/www/solucion_tarea_1/index.php",
+		"/C/wamp64/www/procesar_informacion/index.php",
+		"/C/wamp64/www/unmundo/cover.css",
+		"/C/Users/Allan_Lopez/Documents/Proyectos/web/hotel_/index.html",
+		"/C/Users/Allan_Lopez/Documents/GitHub/administradorProyectos/index.html",
+		"/C/Users/Allan_Lopez/Documents/Proyectos/web/hotel_/habitaciones.html",
+		"/C/Users/Allan_Lopez/Documents/Proyectos/web/hotel_/css/miTipografia.css",
+		"/C/Users/Allan_Lopez/Documents/universidad/Arquitectura/alarma/css/reglas_generales.css",
+		"/C/Users/Allan_Lopez/Documents/universidad/ingeniería del software/proyecto/bd.sql",
+		"/C/Users/Allan_Lopez/Documents/Proyectos/web/hotel_/pages/habitaciones.html",
+		"/C/Users/Allan_Lopez/Documents/Proyectos/web/hotel_/pages/reservaciones.html",
+		"/C/Users/Allan_Lopez/Documents/Proyectos/web/hotel_/css/estilosFuentes",
+		"/C/Users/Allan_Lopez/Documents/Proyectos/web/IS410-I2017-IIUnidad-master/ejemplo_login/index.php",
+		"/C/wamp64/bin/apache/apache2.4.23/conf/httpd.conf",
+		"/C/wamp64/bin/mysql/mysql5.7.14/my.ini",
+		"/c/wamp64/logs/apache_error.log",
+		"/C/wamp64/wampmanager.tpl",
+		"/C/Users/Allan_Lopez/Documents/Proyectos/IS410-I2017-IUnidad-master/HolaMundoPHP/index.php",
+		"/C/Users/Allan_Lopez/Documents/Proyectos/IS410-I2017-IUnidad-master/facebook_usuarios/index.php",
+		"/C/Users/Allan_Lopez/Documents/Proyectos/IS410-I2017-IUnidad-master/hola_mundo/index.html",
+		"/C/Users/Allan_Lopez/AppData/Local/Temp/Rar$DIa4156.9335/class-usuario.php",
+		"/C/Users/Allan_Lopez/AppData/Local/Temp/Rar$DIa4156.15784/procesar-registro-usuarios.php",
+		"/C/Users/Allan_Lopez/Documents/Simulador2/src/modelo/Simulacion.java",
+		"/C/Users/Allan_Lopez/Documents/universidad/POO/Tarea 4/Organizatareas/src/application/PanelTareasControlador.java",
+		"/C/Users/Allan_Lopez/Downloads/simuladorcp.sql",
+		"/C/Users/Allan_Lopez/AppData/Local/Temp/Rar$DIa6692.41995/Conexion.java",
+		"/C/Users/Allan_Lopez/Documents/universidad/POO/ProyectoDeClase/ProyectoPOO/src/proyecto/myManager/modelo/Conexion.java",
+		"/C/Users/Allan_Lopez/Documents/universidad/POO/IS410-II2015-IIUNIDAD-master/ExamenPOOUnidadIIParte2/src/modelo/Conexion.java",
+		"/C/Users/Allan_Lopez/Documents/universidad/BasesDeDatos1/proyecto/Proyecto1/src/proyecto/paquetes/modelo/ConexionOracle.java",
+		"/C/Users/Allan_Lopez/Documents/universidad/POO/IS410-II2015-IIUNIDAD-master/RegistroProductosFXV3.0.1/src/modelo/Conexion.java",
+		"/C/Users/Allan_Lopez/Documents/universidad/POO/IS410-II2015-IIUNIDAD-master/RegistroProductosFXv3.0/src/modelo/Conexion.java",
+		"/C/Users/Allan_Lopez/Documents/universidad/POO/Tarea 4/Testconection/src/Conexion.java",
+		"/C/Users/Allan_Lopez/Documents/universidad/POO/Tarea 4/Organizatareas/src/modelo/Conexion.java",
+		"/C/Users/Allan_Lopez/Documents/otro_simulador/Simulador2/src/modelo/Poblacion.java",
+		"/C/Users/Allan_Lopez/Documents/Simulador2/src/application/PanelCtrl.java",
+		"/C/Users/Allan_Lopez/Documents/universidad/teoria de la simulacion/simulador_nuevo/Simulador2/src/application/PanelCtrl.java"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"xs",
+			"Precio",
+			"xs",
+			"col",
+			"collapseFiltro2",
+			"headingFiltro2",
+			"headingThree",
+			"headingOne1",
+			"headingOne",
+			"collapseThree",
+			"collapseOne1",
+			"accordion1",
+			"accordion",
+			"headingOne",
+			"dropdown-toggle",
+			"dropdown",
+			"dropdawn",
+			";\n",
+			"bs-example-navbar-collapse-1",
+			"h4",
+			"h3",
+			"parallax",
+			"src",
+			"xxs",
+			"\\",
+			"menu",
+			"xs",
+			"col",
+			"message-right",
+			"message",
+			"receiver",
+			"message",
+			"p",
+			"body ",
+			"app",
+			"Volver",
+			"proyectos",
+			"proyecto",
+			"Usuario",
+			"}\n",
+			"alert",
+			"parallax",
+			"\n\t",
+			"tabla-tareas",
+			"pic",
+			"Patrocinador",
+			"U",
+			"Tipo proyecto",
+			"Tipo",
+			" \">",
+			"frmNuevoProyecto",
+			"Estado",
+			"proyectos",
+			"sign",
+			"cuadrado",
+			";\">",
+			"td",
+			">",
+			"<!",
+			".</",
+			"bs-example-navbar-collapse-1",
+			"3307",
+			"3306",
+			"8080",
+			"masculino",
+			"femenino",
+			"2015",
+			"femenino",
+			"2020",
+			"NULL",
+			"2020",
+			"NULL",
+			"2015",
+			"masculino",
+			"femenino",
+			"2020",
+			"2015",
+			"NULL",
+			"2010",
+			"NULL",
+			"dd",
+			"NULL",
+			"null",
+			"femenino",
+			"null",
+			"2010",
+			"z",
+			"1990",
+			"z",
+			"q",
+			"427\n    444\n    451\n    426\n    378\n    329\n    273\n    219\n    185\n    150\n    122\n    100\n    73\n    56\n    45\n    34\n    23\n    13\n    4\n    1\n    0\n    444\n    460\n    465\n    435\n    378\n    322\n    261\n    208\n    179\n    149\n    123",
+			"(",
+			";",
+			"1990",
+			"masculino",
+			"femenino",
+			"(NULL",
+			"m",
+			"f",
+			"F",
+			"f",
+			"1990",
+			"INSERT INTO sql9172236.tbl_poblaciones (Num, pais, genero, edades, año, valor) VALUES",
+			"}\n",
+			".",
+			"add",
+			"'1990'",
+			"1990",
+			"'\n",
+			"1990",
+			"1",
+			"h",
+			"honduras",
+			"h",
+			"'",
+			"`"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Allan_Lopez/Documents/Proyectos/IS410-I2017-IUnidad-master/anotaciones.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4995,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1323,
+								1323
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/detalle_producto.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6981,
+								6981
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2854.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Allan_Lopez/Documents/GitHub/ProyectoDesarrolloWebUnah/login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5080,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1531,
+								1531
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 780.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2521,
+								2521
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "wsp.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

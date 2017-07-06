@@ -1,0 +1,18 @@
+.active{
+	background-color: #6490B1;
+}
+
+.sideBar-body.active:hover{
+	background-color: #6490B1;
+}
+
+#span-mensaje{
+
+	display: table-cell; 
+ 	vertical-align: middle;
+ 	
+}
+
+#hiden-conversation{
+	display:table;
+}

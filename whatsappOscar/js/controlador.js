@@ -4,10 +4,13 @@
   var codigoEmisor=$('#slc-usuario').val();
   var arregloContactoNombre=['Vegeta','Goku','Trunks','Patricio']
 
+
   //se creo un div para que al iniciar no se muestre nada en la conversacion   
   $('#conversation').hide(); 
   $('#div-enviar').hide()
   $('#hiden-conversation').show()
+
+
   
   //rutina para cargar mensajes
   function cargarMensajes(){
@@ -61,6 +64,7 @@
                 +'</div>'
                 +'<div class="col-xs-3 col-md-3">'
                   +'<span class="message-time pull-right">'
+                  +arreglo[i][2]
                   +'</span>'
                 +'</div>'
              +' </div>'
@@ -75,6 +79,13 @@
         //console.log(mensaje);
         $('#conversation').html(mensaje);
       }
+
+      $('#conversation').scrollTop($('#conversation')[0].scrollHeight);
+
+      setInterval(function(){ 
+       limpiarConversacion();
+       cargarMensajes();
+        }, 30000);
 
 
 
@@ -141,6 +152,8 @@ $('.sideBar-body').click(function(){
 
 
   	var texto =  $('#txta-mensaje').val();
+    $('#txta-mensaje').val('');
+   
     codigoEmisor=$('#slc-usuario').val();
 
     if(texto.length!=0){
@@ -148,7 +161,7 @@ $('.sideBar-body').click(function(){
       $.ajax({  
         type: 'POST',  
         url: 'procesarMsg.php', 
-        data: { emisor: codigoEmisor,receptor: codigoReceptor,mensaje: texto },
+        data: { emisor: codigoEmisor,receptor: codigoReceptor,mensaje: texto, hora: tiempo },
         success: function(respuesta) {
           
 

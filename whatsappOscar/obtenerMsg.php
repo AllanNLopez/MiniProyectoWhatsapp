@@ -8,17 +8,17 @@
 
 	$archivo = fopen("data.txt","r") or die('fallo al cargar');
 	while($row = fgets($archivo)) {
-  		list( $mensaje, $receptor1, $emisor1) = explode( ",", $row );
+  		list( $mensaje, $receptor1, $emisor1,$tiempo) = explode( ",", $row );
 
   		if ($emisor==$emisor1 && $receptor==$receptor1) {
   			
-  			$arregloMsg[]=array($mensaje,$emisor1);
+  			$arregloMsg[]=array($mensaje,$emisor1,$tiempo);
   			
   			
   		}else{
   		if($emisor==$receptor1 && $receptor==$emisor1){
 
-  			$arregloMsg[]=array($mensaje,$emisor1);
+  			$arregloMsg[]=array($mensaje,$emisor1,$tiempo);
 
   		}
   	}

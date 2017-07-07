@@ -54,7 +54,7 @@
               +'<div class="col-sm-12 message-main-receiver">'
                 +'<div class="col-xs-2 col-md-2">'
                    +'<div class="avatar-icon put-it-right">'
-                    +'<img src="img/profile-pics/trunks.jpg">'
+                    +'<img src="img/profile-pics/'+arreglo[i][1]+'.jpg">'
                   +'</div>'
                 +'</div>'
                 +'<div class="col-xs-7 col-md-7">'
@@ -82,20 +82,30 @@
 
       $('#conversation').scrollTop($('#conversation')[0].scrollHeight);
 
-      setInterval(function(){ 
-       limpiarConversacion();
-       cargarMensajes();
-        }, 30000);
-
-
-
   }
+
+
+  
+    
+   setInterval(function(){ 
+   limpiarConversacion();
+   cargarMensajes();
+    }, 30000);
+  
 
 
 
   $("#slc-usuario").change(function(){
   	//alert("USUARIO seleccionado: " + $("#slc-usuario").val());
     codigoEmisor=$('#slc-usuario').val();
+    $("#imagenPerfil").attr("src","img/profile-pics/"+codigoEmisor+".jpg");
+
+    
+     $('#conversation').hide(); 
+      $('#div-enviar').hide()
+      $('#hiden-conversation').show()
+
+
     ///alert(codigoEmisor);
   });
 
@@ -190,7 +200,7 @@ $('.sideBar-body').click(function(){
               +'<div class="col-sm-12 message-main-receiver">'
                 +'<div class="col-xs-2 col-md-2">'
                    +'<div class="avatar-icon put-it-right">'
-                    +'<img src="img/profile-pics/trunks.jpg">'
+                    +'<img src="img/profile-pics/'+codigoEmisor+'.jpg">'
                   +'</div>'
                 +'</div>'
                 +'<div class="col-xs-7 col-md-7">'

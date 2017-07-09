@@ -8,12 +8,12 @@
 	$vectorMensajes; 
 	$contador = 1;
 	//abrir archivo de mensajes
-	$contactsLine = "";
+	$messajeLine = "";
 	$file = fopen("../data/mensajes.csv","r");
           	
   	while(!feof($file)) {
-  		$contactsLine = fgets($file);
-  		$vectorMensajes = explode(",", $contactsLine);
+  		$messajeLine = fgets($file);
+  		$vectorMensajes = explode(",", $messajeLine);
   		if (strcmp ($vectorMensajes[0] , $emisor ) == 0 && strcmp ($vectorMensajes[1] , $receptor ) ==0 ) {
   			$mensajex = new Mensaje(
   								$vectorMensajes[0],
@@ -34,7 +34,7 @@
  	}
   	fclose($file);
 /*
-  	echo $contactsLine;
+  	echo $messajeLine;
   	echo "<br>";*/
   	echo $retorno;
 

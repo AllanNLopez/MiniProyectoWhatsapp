@@ -1,12 +1,11 @@
-krilin,patricio, mensaje 1, 12:00
-goku,trunks, mensaje 2, 12:10
-vegeta,krilin, mensaje 3, 12:11
-patricio,goku, mensaje 4, 01:23
-goku,patricio, mensaje 5, 3:00
-vegeta,trunks,de vegeta a trunks,3:7
-vegeta,goku,de vegeta a goku,3:8
-patricio,goku,de patricio a goku,3:9
-goku,patricio,de goku a patricio,3:10
-krilin,goku,de krilin a goku,3:12
-vegeta,patricio,de vegeta a patricio,3:13
-trunks,patricio,de trunks a patricio,3:13
+krilin,patricio,de krilin a patricio 1,13:28
+krilin,patricio,de krilin a patricio 2,13:33
+patricio,krilin,de patricio a krilin,13:37
+goku,vegeta,de goku a vegeta 1,13:42
+goku,patricio,de goku a patricio 1,13:43
+goku,vegeta,de goku a vegeta 2,14:40
+krilin,patricio,de krilin a patricio 3,13:33
+vegeta,goku,de vegeta a goku,15:13:8
+patricio,vegeta,de patricio a vegeta 1,15:15:30
+patricio,goku,de patricio a goku,15:33:46
+krilin,patricio,de krilin a patricio 5,13:28

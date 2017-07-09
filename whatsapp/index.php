@@ -1,12 +1,6 @@
-
 <?php
-  include_once("../whatsapp/class/msgController.php");
-           
- 
-  
+
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/custom.css">
-  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="icon" type="image/png" href="img/telegram.png">
   <!-- Font Awesome File -->
   <link rel="stylesheet" href="css/font-awesome.css">
 
@@ -90,7 +84,9 @@
                     <option value = "2">trunks</option>
                     <option value = "3">goku</option>
                     <option value = "4">krilin</option>
-                    <option value = "4">patricio</option>
+                    <option value = "5">patricio</option>
+                    <option value = "6">gohan</option>
+                    <option value = "7">roshi</option>
                 </select>
             </div>
            <!--  <div class="col-sm-1 col-xs-1  heading-dot  pull-right">
@@ -119,7 +115,7 @@
           
             <!-- Inicio de la lista de conversaciones -->
             <!--Goku-->
-            <div class="row sideBar-body"  >
+           <!--  <div class="row sideBar-body"  >
               <div class="col-sm-3 col-xs-3 sideBar-avatar">
                 <div class="avatar-icon">
                   <img src="img/profile-pics/goku.jpg">
@@ -137,10 +133,10 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <!--Trunks-->
-            <div class="row sideBar-body"  >
+            <!-- <div class="row sideBar-body"  >
               <div class="col-sm-3 col-xs-3 sideBar-avatar">
                 <div class="avatar-icon">
                   <img src="img/profile-pics/trunks.jpg">
@@ -158,10 +154,10 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <!--Patricio-->
-            <div class="row sideBar-body"  >
+            <!-- <div class="row sideBar-body"  >
               <div class="col-sm-3 col-xs-3 sideBar-avatar">
                 <div class="avatar-icon">
                   <img src="img/profile-pics/patricio.jpg">
@@ -179,7 +175,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <!-- Fin de la lista de conversaciones -->
 
@@ -223,9 +219,9 @@
         <!-- Heading -->
         <div class="row heading">
 
-          <div class="col-xs-10 col-md-10">
+          <div class="col-xs-10 col-md-10" id="emisor-div">
               <p class="titulo" id="nombre-contacto"><b>Nombre de contacto</b>
-                  <span style="color: #e0e0e0; font-size: 12px;">last seen 12 minutes ago</span>
+                  <span style="color: #e0e0e0; font-size: 12px;">Se actualizara en 30 segundos</span>
               </p>
           </div>
           <div class="col-xs-1 col-md-1">
@@ -258,7 +254,7 @@
             </div>
           </div>
 
-          <div class="row message-body">
+         <!--  <div class="row message-body">
             <div class="col-sm-12 message-main-receiver">
               <div class="col-xs-2 col-md-2">
                  <div class="avatar-icon put-it-right">
@@ -268,10 +264,7 @@
               <div class="col-xs-8 col-md-8">
                 <div class="message-text">
                    <p><span class="titulo-contacto" >Nombre de usuario</span><br>
-                   <?php
-                        $msg = new msgController(); 
-                        echo  $msg->readMsg();
-                   ?>
+                    
                    </p>
                 </div>
               </div>
@@ -281,7 +274,7 @@
                 </span>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!--  <div class="row message-body">
             <div class="col-sm-12 message-main-receiver">
@@ -412,4 +405,3 @@
 </body>
 
 </html>
-

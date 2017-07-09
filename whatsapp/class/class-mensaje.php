@@ -15,7 +15,6 @@
 			 $this->mensaje = $mensaje;
 			 $this->tiempo = $tiempo;
 		}
- 
 
 
 		public function getEmisor(){

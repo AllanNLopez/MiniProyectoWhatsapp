@@ -1,0 +1,8 @@
+krilin,patricio
+patricio,krilin
+goku,vegeta
+vegeta,goku
+goku,patricio
+patricio,goku
+vegeta,patricio
+patricio,vegeta

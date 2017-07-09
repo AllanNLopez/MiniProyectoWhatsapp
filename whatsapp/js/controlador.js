@@ -9,28 +9,43 @@ function getTiempo(){
     var minuto = tiempo.getMinutes();
     var segundo = tiempo.getSeconds();
 
-    return ''+hora+':'+minuto;
+    return ''+hora+':'+minuto+':'+segundo;
 }
 
- $(".name-meta").click(function(){
-        receptor = $(this).html();
-        $('#nombre-contacto').html(receptor); 
-        $("#receptor-id").attr("src","img/profile-pics/"+receptor.toLowerCase()+".jpg");
-        cargarMensajes(emisor, receptor);
-    });
+/* $(".name-meta").click(function(){
+    receptor = $(this).html();
+    $('#nombre-contacto').html(receptor); 
+    $("#receptor-id").attr("src","img/profile-pics/"+receptor.toLowerCase()+".jpg");
+    cargarMensajes(emisor, receptor);
+}); */
 
-function cargarContactos(contacto) {
-  var contacto = 
-            '<div class="row sideBar-body" onclick="seleccionarContacto(26,"Trunks");">'
+ $(document).on('click', ".name-meta", function () {
+    receptor = $(this).html();
+
+    nombre =  '<p class="titulo" id="nombre-contacto"><b>'+receptor+'</b>'
+              +'    <span style="color: #e0e0e0; font-size: 12px;">se actualizara en 30 segundos</span>'
+              +'</p>';
+    $('#emisor-div').html(nombre); 
+
+    $("#receptor-id").attr("src","img/profile-pics/"+receptor.toLowerCase()+".jpg");
+    $('#conversation').html("");
+    cargarMensajes(emisor, receptor);
+    return false;
+});
+
+function printContactos(nombre) {
+  var contacto = $('#sideBar').html();
+  contacto = contacto +
+            '<div class="row sideBar-body"  >'
            + '  <div class="col-sm-3 col-xs-3 sideBar-avatar"> '
             +'    <div class="avatar-icon"> '
-            +'      <img src="img/profile-pics/trunks.jpg">'
+            +'      <img src="img/profile-pics/'+nombre+'.jpg">'
            + '    </div>'
            + '  </div>'
            + '  <div class="col-sm-9 col-xs-9 sideBar-main">'
            + '    <div class="row">'
            + '      <div class="col-sm-8 col-xs-8 sideBar-name">'
-           +  '       <span class="name-meta">'+contacto
+           +  '       <p class="name-meta">'+nombre+'</p>'
            +    '  </span>'
            +   '    </div>'
             +'    <div class="col-sm-4 col-xs-4 pull-right sideBar-time">'
@@ -40,17 +55,45 @@ function cargarContactos(contacto) {
              +  ' </div> '
             +'  </div>'
            +' </div>'
+ 
 
     $('#sideBar').html(contacto);
    
 }
 
+function cargarContactos(emisor){
+  $('#sideBar').html("");
+    parametros = "emisor="+emisor; 
+    $.ajax(
+        {
+          url: "../whatsapp/php/loadContacts.php",
+          data: parametros,
+          method:"POST",
+          success:function(respuesta){
+            if (respuesta != "") {
+              var contactos = respuesta.split(",");
+              for (var i = 0; i<contactos.length; i++) {
+                printContactos(contactos[i]);
+              }
+            }
+            
+            
+          },
+          error:function(){
+            alert("Ocurrio un error");
+          }
+        }
+      );
 
+   
+}
 
 $("#slc-usuario").change(function(){
   emisor = $( "#slc-usuario option:selected" ).text();
   $("#emisor-id").attr("src","img/profile-pics/"+emisor.toLowerCase()+".jpg");
   $("#emisor-id-reply").attr("src","img/profile-pics/"+emisor.toLowerCase()+".jpg"); 
+  $('#conversation').html("");
+  cargarContactos(emisor);
 });
 
 function seleccionarContacto(codigoContacto, nombreContacto){
@@ -65,7 +108,6 @@ $("#btn-enviar").click(
     //enviando mensaje para guardar en texto
     var texto =  $('#txta-mensaje').val();
     parametros = "emisor="+emisor+"&receptor="+receptor+"&txta-mensaje="+texto+"&tiempo="+getTiempo();
-    alert(parametros);
     $.ajax(
         {
           url: "../whatsapp/php/saveMessage.php",
@@ -88,8 +130,8 @@ $("#btn-enviar").click(
 
 
 //rutina para cargar mensajes
-function cargarMensajes(emisor, receptor){
-    $('#conversation').html("");
+function cargarMensajes(emisor, receptor){  
+   
     parametros = "emisor="+emisor+"&receptor="+receptor;
     var json ='';
     $.ajax(
@@ -119,7 +161,7 @@ function cargarMensajes(emisor, receptor){
 
 
 function printMsg(emisor, receptor, texto, tiempo){
-
+  
   var mensaje = 
       '<div class="row message-body">'
             +'<div class="col-sm-12 message-main-receiver">'
@@ -144,15 +186,23 @@ function printMsg(emisor, receptor, texto, tiempo){
      // document.getElementById('conversation').innerHTML = mensaje;
      var previo = $('#conversation').html(); 
      
-     
+     $('#conversation').html("");
       mensaje = previo+mensaje;
-      console.log(mensaje);
       $('#conversation').html(mensaje);
 }
 
 
 $(document).ready(function(){ 
-     
+    /* setInterval( function(){
+      $('#conversation').html("");
+      cargarMensajes(emisor, receptor);
+      nombre =  '<p class="titulo" id="nombre-contacto"><b>'+receptor+'</b>'
+              +'    <span style="color: #e0e0e0; font-size: 12px;">actualizado a las '+getTiempo()+'</span>'
+              +'</p>';
+      $('#emisor-div').html(nombre); 
+
+      }, 10000);*/
+
 });
 
 

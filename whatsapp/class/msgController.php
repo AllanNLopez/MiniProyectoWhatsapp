@@ -23,17 +23,29 @@
 
 
 		public function writeMsg($mensaje){
-
+			$archivo = fopen("../data/mensajes.txt","a+") or die ("No se pudo crear el archivo");
+			fwrite($archivo, $mensaje."\n");
+			fclose($archivo);
 		}
 
-		public function readMsg(){
-			$file = fopen("data/mensajes.txt","r");
+		public function getContacts(){
+			$file = fopen("data/contactos.txt","r");
           	while(!feof($file)) {
-          	$m =  fgets($file)."<br />";
+          		$contactsLine =  fgets($file)."<br />";
          	}
           	fclose($file);
 
-          return $m;
+          return $contactsLine;
+		}
+
+		public function readMsg(){
+			$msjLine = "";
+			$file = fopen("data/mensajes.csv","r");
+          	while($row = fgets($file))
+          		$msjLine = $msjLine.$row;
+
+          	fclose($file);
+          return $msjLine;
 		}
 	}
 

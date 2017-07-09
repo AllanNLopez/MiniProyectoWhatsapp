@@ -1,8 +1,11 @@
 
 <?php
-  include_once("class/msgController.php");
-
+  include_once("../whatsapp/class/msgController.php");
+           
+ 
+  
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -39,6 +42,21 @@
 
       .input-search-padding{
           padding-left: 35px;
+          box-shadow: none;
+          background-color: #e8e8e8;
+          border-radius: 3px;
+          border-style: none;
+      }
+
+      .emoji-style{
+          height: 20px; 
+          width: 20px; 
+          color: #e0e0e0; 
+          padding: 5px;"
+      }
+
+      .code{ 
+        display: none;
       }
 
   </style>
@@ -57,23 +75,25 @@
             <div class="col-xs-2 col-md-2">
               <span class="glyphicon glyphicon-menu-hamburger " aria-hidden="true" style="font-size: 25px; color: #fff;"></span>
             </div>
-            <div class="col-xs-9 col-md-9" >
+            <!-- <div class="col-xs-9 col-md-9" >
                 <p class="titulo">Telegram</p>
-            </div>
+            </div> -->
             
-            <!-- <div class="col-sm-3 col-xs-3 heading-avatar">
+            <div class="col-md-2 col-xs-3 heading-avatar">
               <div class="heading-avatar-icon">
-                <img src="img/profile-pics/vegeta.jpg">
+                <img id="emisor-id" src="img/profile-pics/vegeta.jpg">
               </div>
             </div>
-            <div class="col-sm-5 col-xs-5" style="padding:0;">
-                <select id="slc-usuario" class="form-control">
-                    <option value = "1">Vegueta</option>
-                    <option value = "2">Goku</option>
-                    <option value = "3">Trunks</option>
+            <div class="col-md-6 col-xs-5" style="padding:0;">
+                <select id="slc-usuario" class="form-control"> 
+                    <option value = "1">vegeta</option>
+                    <option value = "2">trunks</option>
+                    <option value = "3">goku</option>
+                    <option value = "4">krilin</option>
+                    <option value = "4">patricio</option>
                 </select>
             </div>
-            <div class="col-sm-1 col-xs-1  heading-dot  pull-right">
+           <!--  <div class="col-sm-1 col-xs-1  heading-dot  pull-right">
               <i class="fa fa-ellipsis-v fa-2x  pull-right" aria-hidden="true"></i>
             </div>
             <div class="col-sm-2 col-xs-2 heading-compose  pull-right">
@@ -87,18 +107,19 @@
             <div class="col-sm-12 searchBox-inner">
               <div class="form-group has-feedback">
                 <span class="glyphicon glyphicon-search form-control-feedback"></span>
-                <input id="searchText" type="text" class="form-control input-search-padding" name="searchText" placeholder="Search">
+                <input id="searchText" type="text" class="form-control input-search-padding" name="searchText" placeholder="Buscar">
               </div>
             </div>
           </div>
 
           <!-- Search Box End -->
           <!-- sideBar -->
-          <div class="row sideBar">
-            
+          <div class="row sideBar" id="sideBar">
+
+          
             <!-- Inicio de la lista de conversaciones -->
             <!--Goku-->
-            <div class="row sideBar-body" onclick="seleccionarContacto(14,'Goku');">
+            <div class="row sideBar-body"  >
               <div class="col-sm-3 col-xs-3 sideBar-avatar">
                 <div class="avatar-icon">
                   <img src="img/profile-pics/goku.jpg">
@@ -107,7 +128,7 @@
               <div class="col-sm-9 col-xs-9 sideBar-main">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
-                    <span class="name-meta">Goku
+                    <p class="name-meta">goku</p><p class="code">012</p>
                   </span>
                   </div>
                   <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
@@ -119,7 +140,7 @@
             </div>
 
             <!--Trunks-->
-            <div class="row sideBar-body" onclick="seleccionarContacto(26,'Trunks');">
+            <div class="row sideBar-body"  >
               <div class="col-sm-3 col-xs-3 sideBar-avatar">
                 <div class="avatar-icon">
                   <img src="img/profile-pics/trunks.jpg">
@@ -128,7 +149,7 @@
               <div class="col-sm-9 col-xs-9 sideBar-main">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
-                    <span class="name-meta">Trunks
+                    <p class="name-meta">trunks</p><p class="code">054</p>
                   </span>
                   </div>
                   <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
@@ -140,7 +161,7 @@
             </div>
 
             <!--Patricio-->
-            <div class="row sideBar-body" onclick="seleccionarContacto(1,'Patricio');">
+            <div class="row sideBar-body"  >
               <div class="col-sm-3 col-xs-3 sideBar-avatar">
                 <div class="avatar-icon">
                   <img src="img/profile-pics/patricio.jpg">
@@ -149,7 +170,7 @@
               <div class="col-sm-9 col-xs-9 sideBar-main">
                 <div class="row">
                   <div class="col-sm-8 col-xs-8 sideBar-name">
-                    <span class="name-meta">Patricio
+                    <p class="name-meta">patricio</p>
                   </span>
                   </div>
                   <div class="col-sm-4 col-xs-4 pull-right sideBar-time">
@@ -203,7 +224,7 @@
         <div class="row heading">
 
           <div class="col-xs-10 col-md-10">
-              <p class="titulo"><b>Nombre de contacto</b>
+              <p class="titulo" id="nombre-contacto"><b>Nombre de contacto</b>
                   <span style="color: #e0e0e0; font-size: 12px;">last seen 12 minutes ago</span>
               </p>
           </div>
@@ -229,10 +250,6 @@
         </div>
         <!-- Heading End -->
 
-        <?php
-          $msg = new msgController();
-        ?>
-
         <!-- Message Box -->
         <div class="row message" id="conversation">
 
@@ -252,7 +269,8 @@
                 <div class="message-text">
                    <p><span class="titulo-contacto" >Nombre de usuario</span><br>
                    <?php
-                       echo  $msg->readMsg();
+                        $msg = new msgController(); 
+                        echo  $msg->readMsg();
                    ?>
                    </p>
                 </div>
@@ -265,7 +283,7 @@
             </div>
           </div>
 
-           <div class="row message-body">
+          <!--  <div class="row message-body">
             <div class="col-sm-12 message-main-receiver">
               <div class="col-xs-2 col-md-2">
                  <div class="avatar-icon put-it-right">
@@ -287,7 +305,7 @@
                 </span>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- <div class="row message-body">
             <div class="col-sm-12 message-main-receiver">
@@ -336,15 +354,21 @@
         <div class="row reply">
           <div class="col-sm-10 col-sm-offset-1">
             <div class="col-xs-2 col-sm-2">
-              <div class="avatar-icon">
-                    <img src="img/profile-pics/patricio.jpg">
+              <div class="avatar-icon" >
+                    <img id="emisor-id-reply" src="img/profile-pics/krilin.jpg">
               </div>
             </div>
             <div class="col-xs-8 col-sm-8">
               <div class="reply-main">
                 <textarea class="form-control" rows="1" id="txta-mensaje"></textarea>
                 <div class="col-xs-9">
-                  <i class="fa fa-smile-o fa-2x"></i><i class="fa fa-smile-o fa-2x"></i>
+                     <span class="emoji-style"><i class="fa fa-file" aria-hidden="true"></i></span>
+                    <span class="emoji-style"><i class="fa fa-camera" aria-hidden="true"></i></span>
+                     <img src="img/emojis/e1.png" width="20px" height="20px">
+                     <img src="img/emojis/e2.png" width="20px" height="20px">
+                     <img src="img/emojis/e3.png" width="20px" height="20px">
+                     <img src="img/emojis/e4.png" width="20px" height="20px">
+                     <img src="img/emojis/e5.png" width="20px" height="20px">
                 </div>
                 <div class="col-xs-3">
                   <button class="boton-enviar" id="btn-enviar">ENVIAR</button>
@@ -353,7 +377,7 @@
             </div>
             <div class="col-xs-2 col-sm-2">
               <div class="avatar-icon">
-                    <img src="img/profile-pics/trunks.jpg">
+                    <img id="receptor-id" src="img/profile-pics/patricio.jpg">
               </div>
             </div>
           </div>
@@ -375,12 +399,16 @@
       <!-- Conversation End -->
     </div>
     <!-- App One End -->
+
+    
   </div>
+
+  
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/controlador.js"></script>
   <!-- App End -->
-
+  
 </body>
 
 </html>

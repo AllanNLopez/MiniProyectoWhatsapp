@@ -1,3 +1,6 @@
+<?php
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,21 +29,6 @@
       .put-it-right{
           margin-left: 40px;
       }
-      .heading{
-          background-color: #fff;
-      }
-      #searchText{
-        background-color: #F1F1F1;
-        height: 30px;
-      }
-      .glyphicon{
-        color: #BFB9B9;
-
-      }
-
-      #conversation{
-       background-image: url(../whatsapp/img/bgb.jpg);      }
-<<<<<<< HEAD
 
       .form-control-feedback {
           left: 0px;
@@ -49,8 +37,6 @@
       .input-search-padding{
           padding-left: 35px;
       }
-=======
->>>>>>> 10c1d1c3822189bca588316bf81f0fb3a68f344f
 
   </style>
 
@@ -66,36 +52,24 @@
           <!-- Heading -->
           <div class="row heading">
             <div class="col-xs-2 col-md-2">
-              <span class="glyphicon glyphicon-menu-hamburger " aria-hidden="true" style="font-size: 25px; "></span>
+              <span class="glyphicon glyphicon-menu-hamburger " aria-hidden="true" style="font-size: 25px; color: #fff;"></span>
             </div>
-           
+            <div class="col-xs-9 col-md-9" >
+                <p class="titulo">Telegram</p>
+            </div>
             
-             
-              
-            <div class="col-md-10 col-sm-10 col-xs-8">
-              <div class="form-group has-feedback-left">
-                <!--<span class="glyphicon glyphicon-search form-control-feedback "></span> -->
-                <input id="searchText" type="text" class="form-control" name="searchText" placeholder="Search">
+            <!-- <div class="col-sm-3 col-xs-3 heading-avatar">
+              <div class="heading-avatar-icon">
+                <img src="img/profile-pics/vegeta.jpg">
               </div>
             </div>
-          
-              
-          </div>
-          <!-- Heading End -->
-
-          <!-- SearchBox -->
-         
-
-          <div class="row searchBox ">
-             <div class="col-sm-12 col-xs-12" style="padding-top:15px;  ">
+            <div class="col-sm-5 col-xs-5" style="padding:0;">
                 <select id="slc-usuario" class="form-control">
                     <option value = "1">Vegueta</option>
                     <option value = "2">Goku</option>
                     <option value = "3">Trunks</option>
                 </select>
             </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
             <div class="col-sm-1 col-xs-1  heading-dot  pull-right">
               <i class="fa fa-ellipsis-v fa-2x  pull-right" aria-hidden="true"></i>
             </div>
@@ -113,12 +87,6 @@
                 <input id="searchText" type="text" class="form-control input-search-padding" name="searchText" placeholder="Search">
               </div>
             </div>
-=======
-
->>>>>>> 10c1d1c3822189bca588316bf81f0fb3a68f344f
-=======
-
->>>>>>> 10c1d1c3822189bca588316bf81f0fb3a68f344f
           </div>
 
           <!-- Search Box End -->
@@ -233,14 +201,14 @@
 
           <div class="col-xs-10 col-md-10">
               <p class="titulo"><b>Nombre de contacto</b>
-                  <span style="color: #699FC6; font-size: 12px;">last seen 12 minutes ago</span>
+                  <span style="color: #e0e0e0; font-size: 12px;">last seen 12 minutes ago</span>
               </p>
           </div>
           <div class="col-xs-1 col-md-1">
-            <span class="glyphicon glyphicon-search " aria-hidden="true" style="font-size: 19px; "></span>
+            <span class="glyphicon glyphicon-search " aria-hidden="true" style="font-size: 19px; color: #e0e0e0;"></span>
           </div>
           <div class="col-xs-1 col-md-1">
-            <span class="glyphicon glyphicon-option-vertical" aria-hidden="true" style="font-size: 19px;"></span>
+            <span class="glyphicon glyphicon-option-vertical" aria-hidden="true" style="font-size: 19px; color: #e0e0e0;"></span>
           </div>
           <!-- <div class="col-sm-2 col-md-1 col-xs-3 heading-avatar">
             <div class="heading-avatar-icon">
@@ -266,8 +234,8 @@
             </div>
           </div>
 
-          <div class="row message-body ">
-            <div class="col-sm-12 message-main-receiver send enviado">
+          <div class="row message-body">
+            <div class="col-sm-12 message-main-receiver">
               <div class="col-xs-2 col-md-2">
                  <div class="avatar-icon put-it-right">
                   <img src="img/profile-pics/goku.jpg">
@@ -289,13 +257,12 @@
           </div>
 
            <div class="row message-body">
-            <div class="col-sm-12 message-main-receiver recibido">
+            <div class="col-sm-12 message-main-receiver">
               <div class="col-xs-2 col-md-2">
                  <div class="avatar-icon put-it-right">
                   <img src="img/profile-pics/trunks.jpg">
                 </div>
               </div>
-
               <div class="col-xs-7 col-md-7">
                 <div class="message-text">
                    <p><span class="titulo-contacto">Nombre de usuario</span><br>
@@ -357,18 +324,18 @@
         <!-- Message Box End -->
 
         <!-- Reply Box -->
-        <div class="row reply" id="menu_mensajes">
+        <div class="row reply">
           <div class="col-sm-1 col-xs-1 reply-emojis">
-            <i class="glyphicon glyphicon-paperclip fa-2x"></i>
+            <i class="fa fa-smile-o fa-2x"></i>
           </div>
           <div class="col-sm-9 col-xs-9 reply-main">
-            <textarea class="form-control" rows="1" id="txta-mensaje" style="color: #D6CFCF">Escribe un mensaje</textarea>
-          </div>
-          <div id="btn-enviar" class="col-sm-1 col-xs-1 reply-send">
-            <i class="fa fa-smile-o fa-2x" aria-hidden="true"></i>
+            <textarea class="form-control" rows="1" id="txta-mensaje"></textarea>
           </div>
           <div class="col-sm-1 col-xs-1 reply-recording">
             <i class="fa fa-microphone fa-2x" aria-hidden="true"></i>
+          </div>
+          <div id="btn-enviar" class="col-sm-1 col-xs-1 reply-send">
+            <i class="fa fa-send fa-2x" aria-hidden="true"></i>
           </div>
         </div>
         <!-- Reply Box End -->
@@ -384,3 +351,6 @@
 </body>
 
 </html>
+
+
+?>

@@ -1,1 +1,5 @@
-hola oscarsfdfsdjjkakdkajkadssads
+krilin,patricio, mensaje 1, 12:00
+goku,trunks, mensaje 2, 12:10
+vegeta,krilin, mensaje 3, 12:11
+patricio,goku, mensaje 4, 01:23
+goku,patricio, mensaje 5, 3:00

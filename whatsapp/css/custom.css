@@ -1,38 +1,29 @@
 
+.boton-enviar{
+  background-color: transparent;
+  border-style: none;
+  margin: 5px;
+  color: blue;
+  font-family: 'arial';
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.boton-enviar: focus {
+  border-style: none;
+}
+
+
 .titulo{
-	color: #000000; 
+	color: #fff; 
 	font-size: 16px;
 }
 
 .titulo-contacto{
-	color: #000000;
+	color: #21618C;
 	font-weight: bold;
 }
 
-#menu_mensajes{
-  background-color: #fff;
-
-}
-
-/*para desplazar el icono de search
-.has-feedback-left input.form-control {
-    padding-left: 34px; 
-    padding-right: 12px; 
-}
-.has-feedback-left .form-control-feedback {
-    left: 15px; 
-}
-*/
-
-.enviado{
-  background-color: #fff;
-}
- 
-.recibido{
-  background-color: #C9E7FF;
- 
-
-}
 
 
 html,
@@ -109,7 +100,10 @@ body {
 
 .heading {
 	/*aqui cambie padding*/
-  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 5px;
   margin: 0;
   height: 60px;
   width: 100%;
@@ -186,7 +180,7 @@ body {
   height: 100%;
   width: 100%;
   padding: 10px !important;
-  background-color: #fbfbfb;
+  background-color: #fff;
 }
 
 
@@ -358,7 +352,7 @@ body {
   background-color: #fff;
   overflow-y: auto;
   border: 1px solid #f7f7f7;
-  height: calc(100% - 120px);
+  height: calc(100% - 170px);
 }
 .message-previous {
   margin : 0 !important;
@@ -445,9 +439,10 @@ body {
 /*Reply*/
 
 .reply {
-  height: 60px;
+  height: 120px;
   width: 100%;
-  background-color: #f5f1ee;
+  /*background-color: #f5f1ee;*/
+  background-color: #fff;
   padding: 10px 5px 10px 5px !important;
   margin: 0 !important;
   z-index: 1000;
@@ -492,20 +487,25 @@ body {
 
 .reply-main textarea {
   width: 100%;
+  height: 40px;
   resize: none;
   overflow: hidden;
   padding: 5px !important;
-  outline: none;
-  border: none;
+  outline: none; 
+  margin-bottom: 5px;
+  border-style: solid;
+  border-top-width: 0px;
+  border-bottom-width: 2px;
+  border-left-width: 0px;
+  border-right-width: 0px;
   text-indent: 5px;
-  box-shadow: none;
-  height: 100%;
+  box-shadow: none; 
   font-size: 16px;
+  border-radius: 1px; 
 }
 
 .reply-main textarea:focus {
-  outline: none;
-  border: none;
+  outline: none; 
   text-indent: 5px;
   box-shadow: none;
 }
@@ -592,10 +592,18 @@ body {
     /*overflow-y: auto;*/
   }
   .message {
-    height: calc(100% - 140px);
+    height: calc(100% - 100px);
+  }
+
+  .input-text-message{
+    border-style: solid;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
   }
   .reply {
-    height: 70px;
+    height: 120px;
   }
   .reply-emojis {
     padding: 5px 0 !important;
@@ -605,7 +613,7 @@ body {
     font-size: 1.8em !important;
   }
   .reply-main {
-    padding: 2px 8px !important;
+    padding: 2px 8px !important; 
   }
   .reply-main textarea {
     padding: 8px !important;

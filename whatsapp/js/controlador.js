@@ -193,7 +193,7 @@ function printMsg(emisor, receptor, texto, tiempo){
 
 
 $(document).ready(function(){ 
-    /* setInterval( function(){
+     setInterval( function(){
       $('#conversation').html("");
       cargarMensajes(emisor, receptor);
       nombre =  '<p class="titulo" id="nombre-contacto"><b>'+receptor+'</b>'
@@ -201,7 +201,7 @@ $(document).ready(function(){
               +'</p>';
       $('#emisor-div').html(nombre); 
 
-      }, 10000);*/
+      }, 10000);
 
 });
 
